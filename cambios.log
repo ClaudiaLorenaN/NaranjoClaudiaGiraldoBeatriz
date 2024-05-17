@@ -15,3 +15,15 @@ INSERT INTO PACIENTES (NOMBRE, APELLIDO, CEDULA, FECHA_INGRESO, DOMICILIO_ID) VA
 [2024-05-16 20:26:42] [ INFO ] [BD:29] tabla creada con exito
 [2024-05-16 20:26:42] [ INFO ] [PacienteDAOH2:23] iniciando la operacion de buscado de un paciente con id : 2
 [2024-05-16 20:26:42] [ INFO ] [DomicilioDAOH2:22] iniciando la busqueda de un domicilio con id: 2
+[2024-05-16 20:36:05] [ WARN ] [BD_OD:26] Error de Sintaxis en sentencia SQL "INSERT INTO ODONTOLOGOS (NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES (1111, 'Jorgito','Pereyra'), (2222, 'Beatriz','Giraldo'), (3333, 'Claudia','Naranjo')[*])"
+Syntax error in SQL statement "INSERT INTO ODONTOLOGOS (NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES (1111, 'Jorgito','Pereyra'), (2222, 'Beatriz','Giraldo'), (3333, 'Claudia','Naranjo')[*])"; SQL statement:
+INSERT INTO ODONTOLOGOS (NUMERO_MATRICULA, NOMBRE, APELLIDO) VALUES (1111, 'Jorgito','Pereyra'), (2222, 'Beatriz','Giraldo'), (3333, 'Claudia','Naranjo')) [42000-224]
+[2024-05-16 20:38:09] [ INFO ] [BD_OD:22] tabla creada con exito
+[2024-05-16 20:40:56] [ INFO ] [BD_OD:22] tabla creada con exito
+[2024-05-16 20:55:08] [ INFO ] [BD_OD:22] tabla creada con exito
+[2024-05-16 20:55:18] [ ERROR] [OdontologoDAOH2:60] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-224]
+[2024-05-16 20:57:56] [ ERROR] [OdontologoDAOH2:60] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-224]
+[2024-05-16 20:58:28] [ ERROR] [OdontologoDAOH2:60] Table "ODONTOLOGOS" not found (this database is empty); SQL statement:
+SELECT * FROM ODONTOLOGOS [42104-224]
